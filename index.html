@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>**“A Whole Problem in Yellow 💛😮‍💨 She’s THAT Girl, No Cap. 💅🔥”**</title>
+
+<style>
+:root{
+  --bg:#080d16;
+  --surface:#101927;
+  --surface-soft:#131f30;
+  --gold:#d7b779;
+  --gold-light:#f0d9a4;
+  --text:#f5f6f8;
+  --muted:#aab5c4;
+  --line:rgba(215,183,121,.22);
+  --shadow:0 18px 48px rgba(0,0,0,.38);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{
+  min-height:100%;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  overflow-x:hidden;
+}
+body{
+  min-height:100vh;
+  background:
+    radial-gradient(ellipse at 50% 0%,rgba(54,82,111,.24),transparent 42%),
+    linear-gradient(180deg,#0b1220 0%,#080d16 54%,#070b12 100%);
+  background-attachment:fixed;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:linear-gradient(135deg,rgba(255,255,255,.018),transparent 42%);
+}
+.page{
+  position:relative;z-index:1;width:100%;max-width:480px;margin:auto;
+  min-height:100vh;padding:12px 0 36px;
+}
+.header{padding:24px 18px 16px;text-align:center}
+.logo{
+  color:#fff;font-size:30px;line-height:1.12;font-weight:850;
+  letter-spacing:.3px;text-transform:uppercase;
+}
+.logo::before{
+  content:"✦";display:block;font-size:22px;line-height:1;
+  margin-bottom:10px;color:var(--gold-light);
+}
+.logo span{
+  display:block;margin-top:5px;color:var(--gold-light);
+  font-size:.92em;letter-spacing:1.5px;
+}
+.sub{
+  margin:14px auto 0;color:var(--muted);font-size:10px;
+  font-weight:700;letter-spacing:1.7px;line-height:1.8;text-transform:uppercase;
+}
+.video-card{
+  margin:12px 12px 0;background:linear-gradient(145deg,#121d2b,#0c1420);
+  border:1px solid var(--line);border-radius:20px;overflow:hidden;
+  box-shadow:var(--shadow);
+}
+.top-native-ad,.video-native-ad{
+  position:relative;display:block;width:calc(100% - 24px);min-height:90px;
+  margin:10px 12px;padding:10px;border:1px solid rgba(215,183,121,.16);
+  border-radius:12px;background:rgba(5,10,17,.78);text-align:center;overflow:visible;
+}
+.top-native-ad .ads-label,.video-native-ad .ads-label{
+  display:block;position:static;margin:0 0 8px;color:#8390a1;
+  font-size:9px;letter-spacing:1.5px;text-align:right;pointer-events:none;
+}
+.top-native-ad #native-ad-top,.video-native-ad #native-ad-script-slot{
+  display:block;width:100%;min-height:60px;
+}
+.top-native-ad iframe,.top-native-ad img,.video-native-ad iframe,.video-native-ad img{max-width:100%}
+.video-box{
+  position:relative;min-height:250px;background:#03060a;
+  border-bottom:1px solid var(--line);
+}
+video{
+  width:100%;max-height:75vh;display:block;object-fit:contain;background:#03060a;
+}
+.video-box::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:80px;
+  background:linear-gradient(to top,rgba(0,0,0,.42),transparent);pointer-events:none;
+}
+#videoLoader{
+  position:absolute;inset:0;background:radial-gradient(circle,#172335,#03060a 75%);
+  color:var(--gold-light);display:flex;align-items:center;justify-content:center;
+  padding:20px;text-align:center;font-size:12px;font-weight:750;letter-spacing:1.5px;
+  text-transform:uppercase;z-index:10;
+}
+.badge{
+  position:absolute;top:12px;left:12px;background:rgba(215,183,121,.14);
+  color:var(--gold-light);border:1px solid var(--line);padding:7px 11px;
+  border-radius:50px;font-size:10px;font-weight:800;z-index:5;
+}
+.video-info{padding:20px 17px 18px}
+.video-title{
+  font-size:21px;font-weight:850;line-height:1.3;letter-spacing:.2px;
+}
+.video-desc{margin-top:10px;color:#b7c1ce;font-size:13px;line-height:1.7}
+.stats{display:flex;gap:8px;margin-top:16px;color:#e8edf3;font-size:10px;font-weight:750;flex-wrap:wrap}
+.stats div{
+  padding:8px 10px;border:1px solid rgba(215,183,121,.16);
+  background:rgba(215,183,121,.055);border-radius:9px;
+}
+.actions{display:flex;gap:10px;margin-top:18px}
+.btn{
+  flex:1;border:0;border-radius:12px;padding:14px;font-size:14px;
+  font-weight:800;cursor:pointer;transition:transform .2s ease,filter .2s ease;
+}
+.btn-primary{
+  background:linear-gradient(135deg,#ead39e,#b89554);color:#101723;
+  box-shadow:0 8px 22px rgba(0,0,0,.22);
+}
+.btn-primary:hover,.smartlink-btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.btn-secondary{background:#111c2b;color:#e8edf3;border:1px solid var(--line)}
+.smartlink-wrap{margin:14px 12px 0}
+.smartlink-btn{
+  display:block;width:100%;padding:15px 18px;border-radius:13px;
+  background:linear-gradient(135deg,#ead39e,#b89554);color:#101723;
+  text-align:center;text-decoration:none;font-size:14px;font-weight:900;
+  letter-spacing:.55px;box-shadow:0 10px 26px rgba(0,0,0,.25);transition:.2s ease;
+}
+.section-title{
+  padding:24px 16px 10px;font-size:13px;font-weight:850;
+  letter-spacing:1.8px;text-transform:uppercase;color:#f1f3f6;
+}
+.section-title::after{
+  content:"";display:block;width:54px;height:2px;margin-top:9px;
+  background:linear-gradient(90deg,var(--gold-light),rgba(215,183,121,0));
+}
+.ads-card{
+  margin:12px;background:rgba(15,24,37,.82);border-radius:16px;padding:14px;
+  border:1px solid var(--line);box-shadow:0 12px 32px rgba(0,0,0,.22);overflow:hidden;
+}
+.ads-label{
+  color:#7f8b9b;font-size:10px;text-transform:uppercase;margin-bottom:12px;letter-spacing:1.7px;
+}
+.footer{
+  text-align:center;color:#778395;font-size:10px;padding:26px 15px;letter-spacing:.4px;
+}
+@media(max-width:480px){
+  .logo{font-size:28px}
+  .video-title{font-size:19px}
+  .sub{letter-spacing:1.3px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;scroll-behavior:auto!important}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<!-- HEADER -->
+<div class="header">
+<div class="logo">
+NextWatch <span>Vidio</span>
+</div>
+
+<div class="sub">
+LATE-NIGHT ENTERTAINMENT • FRESH CLIPS • 18+
+</div>
+</div>
+
+
+<!-- VIDEO CARD -->
+<div class="video-card">
+
+<!-- =====================================================
+     NATIVE BANNER BARU DI ATAS VIDEO
+     SCRIPT BARU - TIDAK MENGGANGGU BANNER LAMA
+     ===================================================== -->
+<div class="top-native-ad">
+
+<div class="ads-label">
+ADVERTISEMENT
+</div>
+
+<div id="native-ad-top">
+
+<script data-cfasync="false"
+async
+type="text/javascript"
+src="//qw.rolledipocras.com/tiTtAiKEeLuZ/151257">
+</script>
+
+</div>
+</div>
+
+
+<!-- VIDEO -->
+<div class="video-box">
+
+<div id="videoLoader">
+Loading video...
+</div>
+
+<video
+autoplay="autoplay"
+controls="controls"
+controlsList="nodownload noremoteplayback"
+disablePictureInPicture="disablePictureInPicture"
+id="player"
+muted="muted"
+playsinline="playsinline"
+webkit-playsinline="webkit-playsinline"
+poster="https://via.placeholder.com/480x720/05030b/ff00d4?text=Midnight+Menaces"
+preload="metadata">
+
+<source
+id="videoSource"
+src=""
+type="video/mp4">
+
+</video>
+
+</div>
+
+
+<!-- VIDEO INFO -->
+<div class="video-info">
+
+<div class="video-title">
+Late Night Highlights
+</div>
+
+<div class="video-desc">
+Welcome to NextWatchVidio — late-night memes, chaotic moments,
+good vibes, and after-dark energy. New clips and fresh vibes every day.
+</div>
+
+<div class="stats">
+<div>🔥 Funny Memes</div>
+<div>☷ Good Vibes</div>
+<div>🌙 After Dark</div>
+<div>18+</div>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- FULL VIDS BUTTON -->
+<div class="smartlink-wrap">
+
+<a
+class="smartlink-btn"
+href="https://www.facebook.com/Emely998"
+rel="nofollow noopener noreferrer"
+target="_blank">
+
+▶ WATCH FULL VIDEOS
+
+</a>
+
+</div>
+
+
+<!-- TRENDING -->
+<div class="section-title">
+TRENDING VIDEOS
+</div>
+
+<br>
+
+
+<!-- =====================================================
+     NATIVE BANNER LAMA
+     TETAP ADA / TIDAK DIUBAH
+     ===================================================== -->
+
+<div class="video-native-ad">
+
+<div class="ads-label">
+ADVERTISEMENT
+</div>
+
+<div id="native-ad-script-slot">
+
+<script>(function(s){s.dataset.zone='11396775',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+
+</div>
+
+</div>
+
+<br>
+
+
+<!-- FOOTER -->
+<div class="footer">
+© 2026 NextWatchVidio. All rights reserved.
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     VIDEO SCRIPT
+     ===================================================== -->
+
+<script type="text/javascript">
+
+(function () {
+
+/* =========================
+   VIDEO PARAM
+   ========================= */
+
+const params = new URLSearchParams(window.location.search);
+
+let video = params.get("v");
+
+if (!video) {
+video = "3JXxlOWe1";
+}
+
+if (!video.startsWith("http")) {
+video = "https://cdn.videy.co/" + video;
+}
+
+if (!video.endsWith(".mp4")) {
+video += ".mp4";
+}
+
+
+/* =========================
+   VIDEO ELEMENT
+   ========================= */
+
+const player = document.getElementById("player");
+const source = document.getElementById("videoSource");
+const loader = document.getElementById("videoLoader");
+
+
+/* =========================
+   AUTOPLAY
+   ========================= */
+
+player.autoplay = true;
+player.muted = true;
+player.playsInline = true;
+
+
+/* =========================
+   LOAD VIDEO
+   ========================= */
+
+source.src = video;
+
+player.load();
+
+
+/* =========================
+   START VIDEO
+   ========================= */
+
+function startVideo() {
+
+player.play().then(function () {
+
+loader.style.display = "none";
+
+}).catch(function () {
+
+/*
+Jika autoplay diblokir browser,
+kontrol video tetap tersedia.
+*/
+
+loader.style.display = "none";
+
+});
+
+}
+
+
+/* =========================
+   VIDEO EVENTS
+   ========================= */
+
+player.addEventListener(
+"canplay",
+startVideo,
+{ once: true }
+);
+
+player.addEventListener(
+"playing",
+function () {
+
+loader.style.display = "none";
+
+},
+{ once: true }
+);
+
+
+player.addEventListener(
+"error",
+function () {
+
+loader.textContent =
+"Video could not be loaded. Check the video URL.";
+
+loader.style.display = "flex";
+
+}
+);
+
+
+/* =========================
+   FALLBACK AUTOPLAY
+   ========================= */
+
+setTimeout(
+startVideo,
+1000
+);
+
+
+/* =========================
+   DISABLE RIGHT CLICK
+   ========================= */
+
+player.addEventListener(
+"contextmenu",
+function (e) {
+e.preventDefault();
+}
+);
+
+})();
+
+</script>
+
+
+<!-- =====================================================
+     HISTATS
+     ===================================================== -->
+
+<!-- Histats.com Counter -->
+<div id="histats_counter"></div>
+
+<!-- Histats.com START (ASYNC) -->
+<script type="text/javascript">
+var _Hasync = window._Hasync || [];
+
+_Hasync.push([
+  'Histats.start',
+  '1,4965921,4,100,103,48,00011111'
+]);
+
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+
+(function() {
+  var hs = document.createElement('script');
+  hs.type = 'text/javascript';
+  hs.async = true;
+  hs.src = 'https://s10.histats.com/js15_as.js';
+
+  var s = document.getElementsByTagName('script')[0];
+
+  if (s && s.parentNode) {
+    s.parentNode.insertBefore(hs, s);
+  } else {
+    (document.head || document.body).appendChild(hs);
+  }
+})();
+</script>
+
+<noscript>
+  <a href="https://www.histats.com/" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://sstatic1.histats.com/0.gif?4965921&101"
+      alt="Histats Counter"
+      border="0"
+    />
+  </a>
+</noscript>
+<!-- Histats.com END -->
+</body>
+</html>
